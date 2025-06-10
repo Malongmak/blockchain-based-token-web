@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Blockchain-Based Tokenization System for Crowdfunding Wildlife Conservation</title>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/toastify-js/src/toastify.min.css">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="login.html">
+</head>
+<body>
+  <header class="app-header">
+    <h1>Blockchain-Based Tokenization System for Crowdfunding Wildlife Conservation</h1>
+    <p>Protecting endangered species through blockchain technology</p>
+  </header>
+
+  <main class="dashboard">
+    <section class="wallet-info">
+      <button id="connectBtn" class="button">
+        Connect Wallet
+      </button>
+      <div class="balance-info">
+        <span>ETH Balance:</span>
+        <span id="balance">0.00</span>
+      </div>
+      <div class="points-info">
+        <span>Your Points:</span>
+        <span id="userPoints">0</span>
+      </div>
+    </section>
+
+    <section class="donate-form">
+      <h2>Make a Donation</h2>
+      <p>Your contribution helps protect endangered species and their habitats</p>
+      <form id="donateForm">
+        <div class="form-group">
+          <label for="donationAmount">ETH Amount</label>
+          <input type="number" id="donationAmount" min="0.01" step="0.01" placeholder="0.01" required>
+        </div>
+        <div class="form-group">
+          <label for="projectSelect">Select Project</label>
+          <select id="projectSelect">
+            <option value="general">General Conservation Fund</option>
+            <option value="tigers">Save the Tigers</option>
+            <option value="oceans">Ocean Cleanup Initiative</option>
+            <option value="forests">Rainforest Protection</option>
+          </select>
+        </div>
+        <button type="submit" class="button donate-button">Donate Now</button>
+      </form>
+      <div id="donationStatus"></div>
+    </section>
+
+    <section class="community-benefits">
+      <h2>Community Benefits</h2>
+      <p>Report conservation issues and redeem points for local benefits!</p>
+      <div class="card">
+        <h3>Report a Case</h3>
+        <p>Seen something? Report it to earn points for your community.</p>
+        <button id="reportCaseBtn" class="button">Report Case</button>
+      </div>
+
+      <div class="card">
+        <h3>Redeem Points</h3>
+        <p>Use your earned points to get benefits from local businesses or services.</p>
+        <form id="redeemPointsForm">
+          <div class="form-group">
+            <label for="pointsToRedeem">Points to Redeem</label>
+            <input type="number" id="pointsToRedeem" min="1" step="1" placeholder="e.g., 100" required>
+          </div>
+          <div class="form-group">
+            <label for="redeemItemDescription">Item Description</label>
+            <input type="text" id="redeemItemDescription" placeholder="e.g., 'Discount voucher'" required>
+          </div>
+          <button type="submit" class="button">Redeem</button>
+        </form>
+      </div>
+    </section>
+
+    <section class="conservation-education">
+      <h2>Conservation Education</h2>
+      <p>Learn more about the importance of wildlife conservation and how your contributions make a difference.</p>
+      <div class="education-content">
+        <h3>Why Conservation Matters</h3>
+        <p>Wildlife conservation is crucial for maintaining biodiversity, ecological balance, and healthy ecosystems. It ensures the survival of countless species, protects natural resources, and provides essential services like clean air and water. By preserving wildlife, we also safeguard the planet for future generations.</p>
+        <h3>How You Can Help</h3>
+        <ul>
+          <li>Donate to reputable conservation organizations.</li>
+          <li>Reduce your carbon footprint.</li>
+          <li>Support sustainable practices and products.</li>
+          <li>Participate in local clean-up drives.</li>
+          <li>Educate others about conservation.</li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="transaction-history">
+      <h2>Your Conservation Impact</h2>
+      <div id="impactStats">
+        <div class="stat-card">
+          <h3>Total Donated</h3>
+          <p id="totalDonated">0 ETH</p>
+        </div>
+        <div class="stat-card">
+          <h3>Species Protected</h3>
+          <p id="speciesProtected">0</p>
+        </div>
+      </div>
+      <h3>Donation History</h3>
+      <ul id="txHistory"></ul>
+    </section>
+  </main>
+
+  <footer>
+    <p>© 2025 Wildlife Conservation Fund. All donations are tax-deductible.</p>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/ethers@6.7.0/dist/ethers.umd.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/toastify-js"></script>
+  <script src="app.js"></script>
+  <script>
+  // Redirect to login if user not logged in
+  if (!localStorage.getItem('currentUser')) {
+    window.location.href = 'login.html';
+  }
+</script>
+</body>
+</html>
