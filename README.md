@@ -7,7 +7,7 @@ A simple decentralized application (DApp) that allows users to transfer custom E
 ## Video Walkthrough
 [VIDEO Walkthrough](https://youtu.be/q6jq1SBvHcQ?si=WSCnWim3-lP96p5R)
 # Githup Repository
-[GITHUB Repository](https://youtu.be/q6jq1SBvHcQ?si=WSCnWim3-lP96p5R)
+[GITHUB Repository](https://github.com/Malongmak/blockchain-based-token)
 ## 🔧 Features
 1️⃣ 🔗 Transparent Token-Based Donations
 
