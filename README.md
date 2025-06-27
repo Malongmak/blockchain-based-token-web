@@ -1,5 +1,4 @@
 # 🦏 Blockchain-Based Tokenization System for Crowdfunding Wildlife-conservation
-
 A decentralized application (DApp) that empowers transparent, token-based donations to protect endangered species. The project leverages Ethereum smart contracts and a web interface to track and demonstrate conservation impact in real time.
 ## 📑 Table of Contents
 Introduction
@@ -94,23 +93,25 @@ speciesProtected()
 
 # 🏗 Project Structure
 Blockchain_Based_Donation
-├── contracts/
-├── Token.sol
-└── WildlifeDonation.sol
-├── frontend/
-├── index.html
-└── donate.js
-├── scripts/
-└── deploy.js
-├── Screenshots/
-├── video-demo/
-└── demo.mp4
-├── hardhat.config.js
-├── package.json
-└── README.md
+contracts/
+Token.sol
+WildlifeDonation.sol
+frontend/
+index.html
+donate.js
+scripts/
+deploy.js
+Screenshots/
+video-demo/
+https://youtu.be/7HkBPWZ_Xic?si=KvjaWGVZzJuKV6_5
+hardhat.config.js
+package.json
+README.md
 # Demo
 🎥 Video Walkthrough – Watch the 5-minute demo
+
 https://youtu.be/7HkBPWZ_Xic?si=KvjaWGVZzJuKV6_5
+
 💻 GitHub Repository –[ Browse the code](https://github.com/Malongmak/blockchain-based-token.git)
 
 Screenshots:
@@ -123,6 +124,7 @@ Frontend UI
 Wallet Connection
 Testing
 Deployment
+
 ![copy of what am doing](https://github.com/user-attachments/assets/677c3a1c-fe2a-4812-9b2e-408de86923ab)
 
 # 🛠 Troubleshooting
