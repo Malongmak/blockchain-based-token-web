@@ -95,16 +95,16 @@ speciesProtected()
 Blockchain_Based_Donation
 │
 ├── contracts/
-│   ├── Token.sol
-│   └── WildlifeDonation.sol
+├── Token.sol
+└── WildlifeDonation.sol
 ├── frontend/
-│   ├── index.html
-│   └── donate.js
+├── index.html
+└── donate.js
 ├── scripts/
-│   └── deploy.js
+└── deploy.js
 ├── Screenshots/
 ├── video-demo/
-│   └── demo.mp4
+└── demo.mp4
 ├── hardhat.config.js
 ├── package.json
 └── README.md
