@@ -44,31 +44,39 @@ HTML / CSS (Web UI)
 Web3.js (Blockchain interaction)
 MetaMask (Wallet)
 Hardhat (Development Environment)
+
 # ⚙ Installation
+
 1️⃣ Install Prerequisites
 Make sure you have:
 Node.js (version 16 or higher)
 npm (Node Package Manager)
 Hardhat
 npm install -g hardhat
+
 2️⃣ Create & Initialize Project
 mkdir Blockchain_Based_Donation
 cd Blockchain_Based_Donation
 npx hardhat
+
 Choose Create a basic sample project and install dependencies.
 3️⃣ Install Dependencies
 npm install @openzeppelin/contracts hardhat-ethers ethers dotenv chai
+
 # 🧩 Usage
 4️⃣ Compile Contracts
 npx hardhat compile
+
 5️⃣ Start Local Blockchain
 npx hardhat node
+
 6️⃣ Deploy Contracts
 In a separate terminal:
 npx hardhat run scripts/deploy.js --network localhost
 You will see deployed contract addresses in the console.
 7️⃣ Run Tests
 npx hardhat test
+
 # 📄 Smart Contracts
 🔹Token Contract (ERC-20)
 Name: MyToken
