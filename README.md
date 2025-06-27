@@ -110,7 +110,7 @@ Blockchain_Based_Donation
 └── README.md
 # Demo
 🎥 Video Walkthrough – Watch the 5-minute demo
-💻 GitHub Repository – Browse the code
+💻 GitHub Repository –[ Browse the code](https://github.com/Malongmak/blockchain-based-token.git)
 
 Screenshots:
 Frontend UI
