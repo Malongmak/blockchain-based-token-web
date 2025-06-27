@@ -58,8 +58,8 @@ npm install -g hardhat
 mkdir Blockchain_Based_Donation
 cd Blockchain_Based_Donation
 npx hardhat
-
 Choose Create a basic sample project and install dependencies.
+
 3️⃣ Install Dependencies
 npm install @openzeppelin/contracts hardhat-ethers ethers dotenv chai
 
@@ -74,6 +74,7 @@ npx hardhat node
 In a separate terminal:
 npx hardhat run scripts/deploy.js --network localhost
 You will see deployed contract addresses in the console.
+
 7️⃣ Run Tests
 npx hardhat test
 
