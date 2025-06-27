@@ -114,6 +114,12 @@ Blockchain_Based_Donation
 
 Screenshots:
 Frontend UI
+![Screenshot (308)](https://github.com/user-attachments/assets/7209583d-77e4-4060-90e9-0fc7ca240c60)
+![Screenshot (307)](https://github.com/user-attachments/assets/58553c24-5f51-4f6a-a208-9da31a7357cd)
+![Screenshot (306)](https://github.com/user-attachments/assets/8df0b347-bba2-49af-bc6c-42a2e1baabbc)
+![Screenshot (311)](https://github.com/user-attachments/assets/df557dee-3988-4979-8963-879468066e05)
+![Screenshot (310)](https://github.com/user-attachments/assets/965aea0b-edc0-4622-9b31-85b8e903d0a1)
+![Screenshot (309)](https://github.com/user-attachments/assets/e48e09a3-7d43-4b95-a7f5-1da30f8a95af)
 Wallet Connection
 Testing
 Deployment
