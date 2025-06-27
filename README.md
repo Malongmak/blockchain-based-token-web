@@ -1,18 +1,16 @@
 # 🦏 Blockchain-Based Tokenization System for Crowdfunding Wildlife-conservation
 A decentralized application (DApp) that empowers transparent, token-based donations to protect endangered species. The project leverages Ethereum smart contracts and a web interface to track and demonstrate conservation impact in real time.
 ## 📑 Table of Contents
-Introduction
-Features
-Tech Stack
-Installation
-Usage
-Smart Contracts
-Project Structure
-Examples
-Troubleshooting
-Next Steps
-Contributors
-License
+✅ Introduction 
+This project enables donors to contribute ERC-20 tokens to support wildlife conservation.
+Every transaction is stored on-chain, ensuring transparency.
+Contributions are fully auditable and verifiable by anyone.
+
+✅ Alternate phrasing, same meaning:
+Donors can send ERC-20 tokens directly to conservation efforts.
+All transactions are recorded on the blockchain for transparency.
+The system makes contributions auditable and verifiable in real time.
+
 ## ✨Introduction
 This project enables donors to contribute ERC-20 tokens transparently to wildlife conservation. Every transaction is stored on-chain, making contributions fully auditable and verifiable.
 
