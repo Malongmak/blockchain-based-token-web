@@ -91,9 +91,9 @@ donate(uint256 _amount)
 totalDonated()
 updateSpeciesProtected(uint256 _newCount)
 speciesProtected()
+
 # 🏗 Project Structure
 Blockchain_Based_Donation
-│
 ├── contracts/
 ├── Token.sol
 └── WildlifeDonation.sol
@@ -111,11 +111,13 @@ Blockchain_Based_Donation
 # Demo
 🎥 Video Walkthrough – Watch the 5-minute demo
 💻 GitHub Repository – Browse the code
+
 Screenshots:
 Frontend UI
 Wallet Connection
 Testing
 Deployment
+
 # 🛠 Troubleshooting
 Contracts Not Deploying?
 Ensure Hardhat node is running.
@@ -126,12 +128,14 @@ Verify correct contract addresses.
 Donations Failing?
 Ensure sufficient test tokens are approved for spending.
 Check donate() call parameters.
+
 # 🚀 Next Steps
 Deploy to Ethereum Testnet (e.g., Sepolia)
 Build React frontend integrations
 MetaMask UI improvements
 Launch live demo site
+
 # 👤 Contributors
-Joshua Malong – Author
+Joshua Malong Author
 # 📜 License
 This project is licensed under the MIT License.
