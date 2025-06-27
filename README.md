@@ -92,23 +92,7 @@ updateSpeciesProtected(uint256 _newCount)
 speciesProtected()
 
 # 🏗 Project Structure
-Blockchain_Based_Donation
-contracts/
-Token.sol
-WildlifeDonation.sol
-frontend/
-index.html
-donate.js
-scripts/
-deploy.js
-Screenshots/
-video-demo/
-https://youtu.be/7HkBPWZ_Xic?si=KvjaWGVZzJuKV6_5
-hardhat.config.js
-package.json
-README.md
-# Demo
-🎥 Video Walkthrough – Watch the 5-minute demo
+![wwww4](https://github.com/user-attachments/assets/51a079c1-1d0d-4a60-8b2e-cb3b5a2fc51a)
 
 https://youtu.be/7HkBPWZ_Xic?si=KvjaWGVZzJuKV6_5
 
