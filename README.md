@@ -85,19 +85,19 @@ Symbol: MTK
 Initial Supply: 1,000,000 MTK
 
 Key Functions:
-1.constructor(uint256 initialSupply)
-2.transfer(address recipient, uint256 amount)
-3.approve(address spender, uint256 amount)
-4.transferFrom(address sender, address recipient, uint256 amount)
+constructor(uint256 initialSupply)
+transfer(address recipient, uint256 amount)
+approve(address spender, uint256 amount)
+transferFrom(address sender, address recipient, uint256 amount)
 
-🔹 Wildlife Donation Contract
+Wildlife Donation Contract
 Handles donations and conservation impact.
 Name: WildlifeDonation
-5.constructor(address _tokenAddress)
-6.donate(uint256 _amount)
-7.totalDonated()
-8.updateSpeciesProtected(uint256 _newCount)
-9.speciesProtected()
+constructor(address _tokenAddress)
+donate(uint256 _amount)
+totalDonated()
+updateSpeciesProtected(uint256 _newCount)
+speciesProtected()
 
 # 🏗 Project Structure
 ![wwww4](https://github.com/user-attachments/assets/51a079c1-1d0d-4a60-8b2e-cb3b5a2fc51a)
