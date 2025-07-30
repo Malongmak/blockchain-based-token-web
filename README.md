@@ -1,88 +1,84 @@
-# 🦏 Blockchain-Based Tokenization System for Crowdfunding Wildlife-conservation
-A decentralized application (DApp) that empowers transparent, token-based donations to protect endangered species. The project leverages Ethereum smart contracts and a web interface to track and demonstrate conservation impact in real time.
-## 📑 Table of Contents
-✅ Introduction 
-This project enables donors to contribute ERC-20 tokens to support wildlife conservation.
-Every transaction is stored on-chain, ensuring transparency.
-Contributions are fully auditable and verifiable by anyone.
+🦏 Blockchain-Based Tokenization System for Crowdfunding Wildlife Conservation  
+A decentralized application (DApp) that empowers transparent, token-based donations to protect endangered species. The platform leverages Ethereum smart contracts and a web interface to track and demonstrate conservation impact in real time.  
+✨ Introduction  
+This project enables donors to contribute ERC-20 tokens directly to wildlife conservation initiatives. All donations are recorded on the Ethereum blockchain, ensuring full transparency, auditability, and trust.  
+Key Points
+- Donors contribute via ERC-20 tokens instead of fiat currency.  
+- All transactions are stored on-chain and publicly verifiable.  
+- Conservation impact metrics are updated in real-time for donors to track progress.  
+🚀 Features  
+1️⃣ Transparent Token-Based Donations 
+- Donate via ERC-20 tokens.  
+- Every transaction is securely recorded on Ethereum.  
+- Smart contracts automatically manage donations.  
 
-✅ Alternate phrasing, same meaning:
-Donors can send ERC-20 tokens directly to conservation efforts.
-All transactions are recorded on the blockchain for transparency.
-The system makes contributions auditable and verifiable in real time.
+2️⃣ Real-Time Donation & Impact Tracking
+- View live donation totals and conservation impact data.  
+- All transactions are verifiable on-chain.  
+3️⃣ Conservation Impact Monitoring  
+- Conservation admins update protected species stats.  
+- Donors see exactly how their funds are used.  
+4️⃣ Secure & Decentralized Transactions  
+- Ethereum ensures trustless and tamper-proof transactions.  
+- MetaMask integration simplifies wallet connectivity.  
+🛠 Tech Stack  
+-Blockchain: Ethereum (Smart Contracts)  
+-Smart Contracts: Solidity (ERC-20 & Custom Donation Contracts)  
+- Frontend: JavaScript, HTML, CSS  
+- Blockchain Interaction: Ethers.js  
+- Wallet: MetaMask  
+- Development Environment: Hardhat  
+- Testing: Chai & Mocha  
 
-## ✨Introduction
-This project enables donors to contribute ERC-20 tokens transparently to wildlife conservation. Every transaction is stored on-chain, making contributions fully auditable and verifiable.
-
-## Highlights:
-ERC-20 tokens instead of fiat
-Transparent conservation impact reporting
-Secure, decentralized transactions
-Integration with MetaMask
-# 🚀 Features
-1️⃣ Transparent Token-Based Donations
-Donate via ERC-20 tokens.
-Transactions recorded on Ethereum.
-Smart contracts handle donations securely.
-
-2️⃣ Real-Time Tracking of Donations & Impact
-Live updates of donations and protected species.
-Anyone can verify transactions on-chain.
-
-3️⃣ Conservation Impact Monitoring
-Conservation admins update impact stats.
-Donors see exactly where funds go.
-
-4️⃣ Secure & Decentralized Transactions
-Ethereum-based payments.
-No intermediaries, reducing costs.
-MetaMask integration.
-# 🛠 Tech Stack
-Solidity (Smart Contracts)
-JavaScript (Frontend)
-HTML / CSS (Web UI)
-Web3.js (Blockchain interaction)
-MetaMask (Wallet)
-Hardhat (Development Environment)
-
-# ⚙ Installation
-
-1️⃣ Install Prerequisites
-Make sure you have:
-Node.js (version 16 or higher)
-npm (Node Package Manager)
-Hardhat
-npm install -g hardhat
-
-2️⃣ Create & Initialize Project
-mkdir Blockchain_Based_Donation
-cd Blockchain_Based_Donation
-npx hardhat
-Choose Create a basic sample project and install dependencies.
-
+ 🔥 Project Highlights  
+-ERC-20 Token Donations: Replaces traditional fiat-based funding with blockchain tokens.  
+-Immutable Ledger: Every contribution is auditable and verifiable by anyone.  
+-Milestone-Based Fund Release: Smart contracts release funds only after conservation goals are met.  
+-Global Participation: Ethereum’s decentralized network enables worldwide support.  \
+⚙ Installation & Setup  
+1️⃣ Prerequisites  
+Ensure you have the following installed:  
+- [Node.js (v16+)](https://nodejs.org/)  
+- npm (Node Package Manager)  
+- [MetaMask Wallet](https://metamask.io/)  
+- Hardhat (Ethereum Development Tool)
+  
+Install Hardhat globally:  
+“npm install -g hardhat”
+2️⃣ Clone the Repository
+git clone https://github.com/Malongmak/blockchain-based-token.git
+cd blockchain-based-token
 3️⃣ Install Dependencies
-npm install @openzeppelin/contracts hardhat-ethers ethers dotenv chai
-
-# 🧩 Usage
-4️⃣ Compile Contracts
-npx hardhat compile
-
+“npm install”
+4️⃣ Compile Smart Contracts
+“npx hardhat compile”
 5️⃣ Start Local Blockchain
-npx hardhat node
-
+“npx hardhat node”
 6️⃣ Deploy Contracts
-In a separate terminal:
-npx hardhat run scripts/deploy.js --network localhost
-You will see deployed contract addresses in the console.
-
-7️⃣ Run Tests
-npx hardhat test
-
-# 📄 Smart Contracts
-🔹Token Contract (ERC-20)
+Open another terminal and run:
+“npx hardhat run scripts/deploy.js --network localhost”
+✅ The deployed contract addresses will be displayed in the console.
+7️⃣ Connect MetaMask
+Open MetaMask and add Localhost 8545 as a custom network.
+Import one of the test accounts (private keys displayed in the Hardhat console)
+8️⃣ Run Tests
+“npx hardhat test”
+9️⃣ Launch Frontend
+If the project includes a frontend:
+“npm start”
+Visit: Website_Link
+🧩 Usage Guide
+Open the DApp in your browser.
+Connect MetaMask wallet.
+Select an amount and donate via ERC-20 tokens.
+Verify donation transactions on the blockchain.
+View updated conservation impact metrics in real-time.
+📄 Smart Contracts
+1. Token Contract (ERC-20):
 Name: MyToken
 Symbol: MTK
 Initial Supply: 1,000,000 MTK
+
 
 Key Functions:
 constructor(uint256 initialSupply)
@@ -90,54 +86,45 @@ transfer(address recipient, uint256 amount)
 approve(address spender, uint256 amount)
 transferFrom(address sender, address recipient, uint256 amount)
 
-Wildlife Donation Contract
-Handles donations and conservation impact.
-Name: WildlifeDonation
+2. Wildlife Donation Contract:
+Handles donations and tracks conservation impact.
 constructor(address _tokenAddress)
 donate(uint256 _amount)
 totalDonated()
 updateSpeciesProtected(uint256 _newCount)
 speciesProtected()
-
-# 🏗 Project Structure
-![wwww4](https://github.com/user-attachments/assets/51a079c1-1d0d-4a60-8b2e-cb3b5a2fc51a)
-
-click the YUTUBE link below to watch the 5 minutes demo
-https://youtu.be/7HkBPWZ_Xic?si=KvjaWGVZzJuKV6_5
-
-💻 GitHub Repository –[ Browse the code](https://github.com/Malongmak/blockchain-based-token.git)
-
-Screenshots:
+🏗 Project Structure
+/blockchain-based-token
+│── contracts/        # Solidity Smart Contracts  
+│── scripts/          # Deployment Scripts  
+│── test/             # Unit Tests  
+│── frontend/         # Web Interface  
+│── hardhat.config.js # Hardhat Config File  
+│── README.md  
+🎥 Demo & Repository
+Live Demo (5 min): Watch Here
+GitHub Repository: Browse the Code
+🖼 Screenshots
 Frontend UI
-![Screenshot (308)](https://github.com/user-attachments/assets/7209583d-77e4-4060-90e9-0fc7ca240c60)
-![Screenshot (307)](https://github.com/user-attachments/assets/58553c24-5f51-4f6a-a208-9da31a7357cd)
-![Screenshot (306)](https://github.com/user-attachments/assets/8df0b347-bba2-49af-bc6c-42a2e1baabbc)
-![Screenshot (310)](https://github.com/user-attachments/assets/965aea0b-edc0-4622-9b31-85b8e903d0a1)
-![Screenshot (309)](https://github.com/user-attachments/assets/e48e09a3-7d43-4b95-a7f5-1da30f8a95af)
-Wallet Connection
-Testing
-Deployment
-
-![copy of what am doing](https://github.com/user-attachments/assets/677c3a1c-fe2a-4812-9b2e-408de86923ab)
-
-# 🛠 Troubleshooting
+Wallet & Deployment 
+🛠 Troubleshooting
 Contracts Not Deploying?
 Ensure Hardhat node is running.
 Check Solidity version compatibility.
 MetaMask Not Connecting?
-Confirm MetaMask is set to the local network.
-Verify correct contract addresses.
+Confirm MetaMask is set to localhost:8545 network.
+Verify contract addresses.
 Donations Failing?
-Ensure sufficient test tokens are approved for spending.
-Check donate() call parameters.
-
-# 🚀 Next Steps
-Deploy to Ethereum Testnet (e.g., Sepolia)
-Build React frontend integrations
-MetaMask UI improvements
-Launch live demo site
-
-# 👤 Contributors
-Joshua Malong Author
-# 📜 License
+Ensure sufficient tokens are approved.
+Confirm correct function parameters.
+🚀 Next Steps
+Deploy to Ethereum Testnet (e.g., Sepolia).
+Build React-based frontend integrations.
+Add advanced analytics dashboard.
+Launch live production demo site.
+👤 Contributors
+Joshua Malong – Author & Developer
+📜 License
 This project is licensed under the MIT License.
+
+
