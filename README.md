@@ -49,15 +49,18 @@ Install Hardhat globally:
 git clone https://github.com/Malongmak/blockchain-based-token.git
 cd blockchain-based-token
 3️⃣ Install Dependencies
+
 “npm install”
 4️⃣ Compile Smart Contracts
 “npx hardhat compile”
 5️⃣ Start Local Blockchain
 “npx hardhat node”
 6️⃣ Deploy Contracts
+
 Open another terminal and run:
 “npx hardhat run scripts/deploy.js --network localhost”
 ✅ The deployed contract addresses will be displayed in the console.
+
 7️⃣ Connect MetaMask
 Open MetaMask and add Localhost 8545 as a custom network.
 Import one of the test accounts (private keys displayed in the Hardhat console)
@@ -67,12 +70,14 @@ Import one of the test accounts (private keys displayed in the Hardhat console)
 If the project includes a frontend:
 “npm start”
 Visit: Website_Link
+
 🧩 Usage Guide
 Open the DApp in your browser.
 Connect MetaMask wallet.
 Select an amount and donate via ERC-20 tokens.
 Verify donation transactions on the blockchain.
 View updated conservation impact metrics in real-time.
+
 📄 Smart Contracts
 1. Token Contract (ERC-20):
 Name: MyToken
@@ -100,28 +105,34 @@ speciesProtected()
 │── test/             # Unit Tests  
 │── frontend/         # Web Interface  
 │── hardhat.config.js # Hardhat Config File  
-│── README.md  
+│── README.md
+
 🎥 Demo & Repository
 Live Demo (5 min): Watch Here
 GitHub Repository: Browse the Code
+
 🖼 Screenshots
 Frontend UI
-Wallet & Deployment 
+<img width="1366" height="768" alt="Image" src="https://github.com/user-attachments/assets/57e3fa6b-d831-4401-a8b4-f1c99b9120f2" />
+
 🛠 Troubleshooting
 Contracts Not Deploying?
 Ensure Hardhat node is running.
 Check Solidity version compatibility.
+
 MetaMask Not Connecting?
 Confirm MetaMask is set to localhost:8545 network.
 Verify contract addresses.
 Donations Failing?
 Ensure sufficient tokens are approved.
 Confirm correct function parameters.
+
 🚀 Next Steps
 Deploy to Ethereum Testnet (e.g., Sepolia).
 Build React-based frontend integrations.
 Add advanced analytics dashboard.
 Launch live production demo site.
+
 👤 Contributors
 Joshua Malong – Author & Developer
 📜 License
