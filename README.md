@@ -75,7 +75,7 @@ Import one of the test accounts (private keys displayed in the Hardhat console)
 If the project includes a frontend:
 
 “npm start”
-Visit: Website_Link
+Visit: https://splendorous-tapioca-95a9cc.netlify.app/
 
 🧩 Usage Guide
 Open the DApp in your browser.
