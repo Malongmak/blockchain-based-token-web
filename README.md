@@ -34,7 +34,8 @@ Key Points
 -ERC-20 Token Donations: Replaces traditional fiat-based funding with blockchain tokens.  
 -Immutable Ledger: Every contribution is auditable and verifiable by anyone.  
 -Milestone-Based Fund Release: Smart contracts release funds only after conservation goals are met.  
--Global Participation: Ethereum’s decentralized network enables worldwide support.  \
+-Global Participation: Ethereum’s decentralized network enables worldwide support.
+
 ⚙ Installation & Setup  
 1️⃣ Prerequisites  
 Ensure you have the following installed:  
@@ -45,29 +46,34 @@ Ensure you have the following installed:
   
 Install Hardhat globally:  
 “npm install -g hardhat”
+
 2️⃣ Clone the Repository
 git clone https://github.com/Malongmak/blockchain-based-token.git
 cd blockchain-based-token
-3️⃣ Install Dependencies
 
+3️⃣ Install Dependencies
 “npm install”
+
 4️⃣ Compile Smart Contracts
 “npx hardhat compile”
+
 5️⃣ Start Local Blockchain
 “npx hardhat node”
-6️⃣ Deploy Contracts
 
+6️⃣ Deploy Contracts
 Open another terminal and run:
 “npx hardhat run scripts/deploy.js --network localhost”
-✅ The deployed contract addresses will be displayed in the console.
 
 7️⃣ Connect MetaMask
 Open MetaMask and add Localhost 8545 as a custom network.
 Import one of the test accounts (private keys displayed in the Hardhat console)
+
 8️⃣ Run Tests
 “npx hardhat test”
+
 9️⃣ Launch Frontend
 If the project includes a frontend:
+
 “npm start”
 Visit: Website_Link
 
@@ -98,6 +104,7 @@ donate(uint256 _amount)
 totalDonated()
 updateSpeciesProtected(uint256 _newCount)
 speciesProtected()
+
 🏗 Project Structure
 /blockchain-based-token
 │── contracts/        # Solidity Smart Contracts  
@@ -135,6 +142,7 @@ Launch live production demo site.
 
 👤 Contributors
 Joshua Malong – Author & Developer
+
 📜 License
 This project is licensed under the MIT License.
 
