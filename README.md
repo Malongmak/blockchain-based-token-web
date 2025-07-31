@@ -48,8 +48,10 @@ Install Hardhat globally:
 “npm install -g hardhat”
 
 2️⃣ Clone the Repository
-git clone https://github.com/Malongmak/blockchain-based-token.git
-cd blockchain-based-token
+
+git clone "https://github.com/Malongmak/blockchain-based-token-web.git"
+
+cd "blockchain-based-token-web"
 
 3️⃣ Install Dependencies
 “npm install”
@@ -75,7 +77,7 @@ Import one of the test accounts (private keys displayed in the Hardhat console)
 If the project includes a frontend:
 
 “npm start”
-Visit: https://splendorous-tapioca-95a9cc.netlify.app/
+Visit the website link here: "https://splendorous-tapioca-95a9cc.netlify.app/"
 
 🧩 Usage Guide
 Open the DApp in your browser.
@@ -106,7 +108,8 @@ updateSpeciesProtected(uint256 _newCount)
 speciesProtected()
 
 🏗 Project Structure
-/blockchain-based-token
+/blockchain-based-token-web
+
 │── contracts/        # Solidity Smart Contracts  
 │── scripts/          # Deployment Scripts  
 │── test/             # Unit Tests  
