@@ -44,7 +44,6 @@ contract ConservationFund {
     // Modifier to restrict access to owner only
     modifier onlyOwner() {
         require(msg.sender == owner, "Only owner can call this function");
-        _;
     }
     receive() external payable {}
     fallback() external payable {}
