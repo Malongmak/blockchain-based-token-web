@@ -4,10 +4,10 @@ A decentralized application (DApp) that empowers transparent, token-based donati
 This project enables donors to contribute ERC-20 tokens directly to wildlife conservation initiatives. All donations are recorded on the Ethereum blockchain, ensuring full transparency, auditability, and trust.  
 
 **DEFENSE PANEL FEEDBACK**
-"Ethereum is ideal because it ensures transparency, automates funding through smart contracts, and supports global, borderless donations. Its auditable, decentralized design builds trust and directly aligns with the accountability needed in wildlife conservation."
+"TECHNICAL IMPLEMENTATION IS GO, Chapter five needs corrections and Correct the literature review and gap identification"
 
 **Implementation Response**
-"I have implemented Ethereum by deploying smart contracts to manage donations, automate milestone-based fund releases, and issue tokenized incentives. I integrated MetaMask for secure transactions, ensuring all activities are recorded on-chain for real-time auditing and transparency."
+"I have fully implemented the panel's comments on correcting the literature review, chapter five and gap identification."
 Key Points
 - Donors contribute via ERC-20 tokens instead of fiat currency.  
 - All transactions are stored on-chain and publicly verifiable.  
